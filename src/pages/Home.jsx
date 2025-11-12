@@ -16,7 +16,7 @@ function Home() {
                 <h3 className="text-4xl font-semibold py-3 mb-2">Hitung</h3>
                 <button onClick={BuatProject} 
                 className="bg-sky-500 hover:shadow-lg focus:ring ring-sky-400 rounded-full px-6 py-3 text-lg font-medium text-white" >
-                    Diagnosa
+                    See my project
                     </button>
             </div>
         </div>
