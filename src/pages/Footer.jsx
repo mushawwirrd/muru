@@ -24,12 +24,12 @@ function Footer({ data }) {
 
                 <div className="flex flex-col items-center  justify-center mx-8 lg:mx-10 ">
 
-                    <div className="w-28 mb-8">
+                    <div className="w-24 md:w-28 mb-8">
                         <img src="/muru.png" alt="" />
                     </div>
 
                     <div className="text-center mb-5">
-                        <h1 className="text-2xl lg:text-3xl">Have an awesome idea? <span className="block">Let's bring it to the screen!</span> </h1>
+                        <h1 className="text-xl lg:text-2xl">Have an awesome idea? <span className="block">Let's bring it to the screen!</span> </h1>
                     </div>
 
                     <div className="flex items-center justify-center mb-20 ">

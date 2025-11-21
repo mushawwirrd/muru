@@ -46,7 +46,7 @@ function App() {
 
       {isOpenMenu && (
         <div onClick={() => setOpenMenu(false)}
-          className="fixed z-40 top-[4rem] inset-0 bg-black/30 backdrop-blur-lg ">
+          className="fixed z-40 top-[3.5rem] inset-0 bg-black/30 backdrop-blur-lg ">
 
         </div>
       )}

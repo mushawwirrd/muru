@@ -1,5 +1,4 @@
 import Button from "../ui/Button"
-import ButtonIcon from "../ui/IconButton"
 
 
 export default function Hero({ data }) {
@@ -8,17 +7,17 @@ export default function Hero({ data }) {
     if (!data) return null
 
     return (
-        <section id="hero" className="pt-28 lg:pt-32">
+        <section id="hero" className="pt-24 lg:pt-32">
 
             <div className="flex flex-col items-center mx-8 lg:flex-row-reverse lg:justify-between lg:mx-10">
 
                 <div >
-                    <div className="flex items-center justify-center border border-primary rounded-full size-[310px] lg:size-96">
-                        <img src={data.photo} alt={data.name} className="size-[258px] lg:size-[336px] shadow-2xl rounded-full" />
+                    <div className="flex items-center justify-center border border-primary rounded-full size-72 lg:size-96">
+                        <img src={data.photo} alt={data.name} className="size-[236px] lg:size-[336px] shadow-2xl rounded-full" />
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center lg:items-start text-center lg:text-start mt-8 lg:mt-0 mx-8  ">
+                <div className="flex flex-col items-center lg:items-start text-center lg:text-start mt-6 lg:mt-0 mx-8  ">
                     <h1 className="text-xl w-full">Hey, <span className="text-primary text-xl lg:text-3xl font-medium"><span className="text-black">I'm</span> {data.name}</span>👋🏻 </h1>
                     <h2 className="text-5xl font-bold mt-1 lg:mt-0 text-primary lg:text-7xl ">{data.role} <span className="block text-black">Developer</span></h2>
                     <h2 className="text-lg w-72 lg:w-[460px] mt-6 lg:mt-8 lg:text-xl ">{data.desc}</h2>

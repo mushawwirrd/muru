@@ -10,10 +10,10 @@ export default function Skill({ data }) {
                 {data.skill.map(skl => {
                     return (
 
-                        <div className="flex flex-col items-center justify-center mx-4 mt-10 lg:mt-5  ">
-
+                        <div className="flex flex-col items-center justify-center mx-3 lg:mx-4 mt-10 lg:mt-5  ">
+                          
                             <div className="">
-                                <img src={skl.skillLogo} alt={skl.skillName} className="w-20 h-20 md:w-24 md:h-24" />
+                                <img src={skl.skillLogo} alt={skl.skillName} className="w-14 h-14 md:w-20 md:h-20" />
                             </div>
 
                             <div>
