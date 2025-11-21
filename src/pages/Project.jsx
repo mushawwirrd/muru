@@ -18,7 +18,7 @@ export default function Project({ data }) {
             <div className="flex flex-col items-start p-6 lg:p-7">
 
               <h1 className="text-2xl font-bold mb-2">{prj.title}</h1>
-              <p className="py-1 px-3 border rounded-full mb-4 w-fit ">{prj.type}</p>
+              <p className="py-0.5 px-2.5 border rounded-full mb-4 w-fit ">{prj.type}</p>
 
               <div className="flex gap-3 w-7 lg:w-8 mb-0.5">
                 <img src={prj.lng1} />
@@ -27,10 +27,7 @@ export default function Project({ data }) {
                 <img src={prj.lng4} />
               </div>
 
-             
-
               <div className="self-end">
-
                 <SmallButton href={prj.link} lable="Preview"/>
               </div>
 
