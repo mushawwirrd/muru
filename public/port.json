@@ -1,0 +1,140 @@
+{
+    "main": {
+        "name": "Mushawwir",
+        "role": "Frontend",
+        "photo": "/me.jpg",
+        "desc": "I'm a Frontend Developer with strong design sense.",
+        "desc2": "Turning ideas into functional, intuitive, and user focused interfaces.",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "/linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "/github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "/behance.svg"
+            }
+        ]
+    },
+    "mySkill": {
+        "skill": [
+            {
+                "skillName": "Javascript",
+                "skillLogo": "/javascript.svg"
+            },
+            {
+                "skillName": "Tailwindcss",
+                "skillLogo": "/tailwindcss.svg"
+            },
+            {
+                "skillName": "React.js",
+                "skillLogo": "/react.svg"
+            },
+            {
+                "skillName": "Node.js",
+                "skillLogo": "/nodejs-icon.svg"
+            },
+            {
+                "skillName": "Express.js",
+                "skillLogo": "/expressjs-square1.svg"
+            }
+        ]
+    },
+    "about": {
+        "prg1": "I’m a Frontend Developer with a strong design sense and design mindset.",
+        "prg2": " I started my career as a UI/UX designer, but over time I realized that what I enjoy most isn’t just designing interfaces, it’s bringing them to life and seeing them in action.",
+        "prg3": "That’s when I transitioned into frontend development, and since then I’ve been passionate about creating modern React-based UIs that are both functional and intuitive. ",
+        "prg4": "This journey has also helped me bridge the gap between design and engineering, combining coding, usability thinking, and product understanding, while working in a fast, iterative, and collaborative way.",
+        "prg5": "During this transition, I’ve continued to expand my technical skills, including JavaScript, React, Tailwind CSS, responsive web, fetch API, Node.js, Express, Sequelize, MySQL, and RESTful API. ",
+        "prg6": "I also actively work on personal projects to practice, explore, and apply these skills in real-world contexts."
+    },
+    "myExperience": {
+        "experience": [
+            {
+                "id": 1,
+                "position": "Frontend Developer",
+                "company": "Freelance",
+                "date": "Oct 2025 - Present",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            },
+            {
+                "id": 2,
+                "position": "UI Designer",
+                "company": "Woo-Hoo",
+                "date": "Aug 2021 - Jul 2022",
+                "do1": " Collaborate with the team to create 20+ design system components including style guide and component library by considering auto layout, naming components, and variants that successfully created design become consistent, structured and team work more efficiently.",
+                "do2": " Composed an interactive Figma prototype and Figma mirror prototype by connecting 100+ frames and creating 15+ animations that engage users with the app design"
+            },
+            {
+                "id": 3,
+                "position": "UI/UX Designer",
+                "company": "LOKAL",
+                "date": "May - Aug 2021",
+                "do1": " Redesigned and improved the user experience of mobile apps and landing pages by adjusting design components, creating user flows, user journey maps, low fidelity designs, and collaborating with the digital marketing team which successfully increased website visits by 11% and app downloads by 100+",
+                "do2": " Collaborate with the developer team to discuss the possibility of implementing the design into code."
+            },
+            {
+                "id": 4,
+                "position": "Frontend Developer",
+                "company": "LOKAL",
+                "date": "May - Aug 2021",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            }
+        ]
+    },
+    "port": {
+        "project": [
+            {
+                "title": "Fina",
+                "image": "/fina.jpg",
+                "detail": "Financial health diagnosis",
+                "type": "Frontend",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "link": "https://fina-finance.netlify.app/"
+            },
+            {
+                "title": "Nancy",
+                "image": "/nancy.jpg",
+                "detail": "More detail financial health diagnosis",
+                "type": "Frontend",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "link": "https://nancy-finance.netlify.app/"
+            },
+            {
+                "title": "Docto",
+                "image": "/hospital.jpg",
+                "detail": "Look at the doctor's schedule",
+                "type": "Fullstack",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "lng3": "/nodejs-icon.svg",
+                "lng4": "/expressjs-square1.svg",
+                "link": "https://github.com/mushawwirrd/inch-backend"
+            }
+        ]
+    },
+    "footer": {
+        "copy": "©2025 All Rights Reserved",
+        "message": "Made with 💙 by",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "/linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "/github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "/behance.svg"
+            }
+        ]
+    }
+}

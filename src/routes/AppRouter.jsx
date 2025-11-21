@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "../pages/Layout"
-import Home from "../pages/Home"
+import Home from "../pages/Header"
 import Product from "../pages/Product"
 import NoPage from "../pages/NoPage"
 
