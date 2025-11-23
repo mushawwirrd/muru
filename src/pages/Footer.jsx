@@ -17,7 +17,7 @@ function Footer({ data }) {
                 <div className="flex flex-col items-center  justify-center mx-8 lg:mx-10 ">
 
                     <div className="w-24 md:w-28 mb-8">
-                        <img src="/muru.png" alt="" />
+                        <img src="muru.png" alt="" />
                     </div>
 
                     <div className="text-center mb-5">
@@ -74,8 +74,8 @@ function Footer({ data }) {
                     </div>
 
                     <div className="w-full text-center">
-                        <p>{data.copy}</p>
-                        <p className=""> {data.message} Mushawwir R</p>
+                        <p className="text-sm">{data.copy}</p>
+                        <p className="text-sm"> {data.message} Mushawwir R</p>
                     </div>
 
                 </div>
