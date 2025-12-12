@@ -3,22 +3,8 @@
         "name": "Mushawwir",
         "role": "Frontend",
         "photo": "mushawwir.jpg",
-        "desc": "I'm a Frontend Developer with strong design sense,",
-        "desc2": "turning ideas into functional, intuitive, and user focused interfaces.",
-        "social": [
-            {
-                "socialName": "LinkedIn",
-                "socialIcon": "linkedin.svg"
-            },
-            {
-                "socialName": "Github",
-                "socialIcon": "github-otln.svg"
-            },
-            {
-                "socialName": "Behance",
-                "socialIcon": "behance.svg"
-            }
-        ]
+        "desc": "I'm a Frontend Developer with strong design sense and design mindset",
+        "desc2": "turning ideas into functional, intuitive, and user focused interfaces."
     },
     "mySkill": {
         "skill": [
@@ -106,7 +92,7 @@
                 "link": "https://mushawwirrd.github.io/nancy/"
             },
             {
-                "title": "Docto",
+                "title": "SJY Hospital",
                 "image": "hospital.jpg",
                 "detail": "Look at the doctor's schedule",
                 "type": "Fullstack",

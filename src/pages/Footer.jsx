@@ -1,8 +1,10 @@
-import { ArrowUpRight, MoveRightIcon, MoveUpRight } from "lucide-react"
+
 import { motion } from "motion/react"
 
 import ButtonIcon from "../ui/IconButton"
 import IconTextButton from "../ui/IconTextButton"
+import { FaArrowRight, FaArrowRightLong, FaGithub } from "react-icons/fa6"
+import { FaBehance, FaBehanceSquare, FaLinkedin } from "react-icons/fa"
 
 
 function Footer({ data }) {
@@ -12,61 +14,48 @@ function Footer({ data }) {
 
     return (
         <footer className="pt-20 ">
-            <div className="pt-8 pb-4  border-t border-t-primary/15 ">
+            <div className="pt-9 pb-4  border-t border-t-primary/15 ">
 
-                <div className="flex flex-col items-center  justify-center mx-8 lg:mx-10 ">
-
-                    <div className="w-24 md:w-28 mb-8">
-                        <img src="muru.png" alt="" />
-                    </div>
-
-                    <div className="text-center mb-5">
-                        <motion.h1
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
-                            viewport={{ once: true }}
-                            className="text-xl lg:text-2xl">
-                            Have an awesome idea?
-                            <motion.span
-                                initial={{ opacity: 0, y: 8 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 1 }}
-                                viewport={{ once: true }}
-                                className="block">
-                                Let's bring it to the screen!
-                            </motion.span>
-                        </motion.h1>
-                    </div>
+                <div className="flex flex-col items-center justify-center mx-8 lg:mx-10 ">
 
                     <motion.div
-                        initial={{ opacity: 0, x: -7 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-center mb-20 ">
-                        <IconTextButton icon2={<MoveRightIcon />} href="https://linktr.ee/mushawwirrd" lable={"Bring To Screen"} />
+                        className="flex flex-col items-center lg:flex-row lg:justify-between lg:w-full mb-16">
+
+                        <div className="text-center ">
+                            <h1 className="text-xl font-bold lg:text-2xl mb-5 lg:mb-0">
+                                Let's work together
+                            </h1>
+                        </div>
+
+                        <div className="">
+                            <IconTextButton href="https://linktr.ee/mushawwirrd" lable={"Let's Talk"} icon2={<FaArrowRightLong/>} />
+                        </div>
                     </motion.div>
+
 
                     <div className="flex flex-row justify-center gap-5 lg:justify-start mb-4">
 
                         <ButtonIcon
                             href="https://www.linkedin.com/in/mushawwir-rudianto"
-                            src="linkedin.svg"
+                            icon={<FaLinkedin size={28}/>}
                             target="_blank"
                             alt="Linked In"
                         />
 
                         <ButtonIcon
                             href="https://github.com/mushawwirrd"
-                            src="github.svg"
                             target="_blank"
+                            icon={<FaGithub size={28}/>}
                             alt="Github"
                         />
 
                         <ButtonIcon
                             href="https://www.behance.net/mushawwrudiant"
-                            src="behance.svg"
+                            icon={<FaBehanceSquare size={28}/>}
                             target="_blank"
                             alt="Behance"
                         />

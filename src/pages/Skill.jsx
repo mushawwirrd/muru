@@ -5,15 +5,16 @@ export default function Skill({ data }) {
     if (!data) return null
 
     const mySkill =
-        <div className='flex flex-wrap  lg:mx-72 justify-center '>
+        <div className='flex flex-wrap justify-center lg:gap-x-10'>
 
             {data.skill.map((skl, i) => {
                 return (
 
                     <div className="flex flex-col items-center justify-center mx-3 lg:mx-4 mt-10 lg:mt-5 ">
+                        
                         <motion.div
                             key={i}
-                            initial={{ opacity: 0, y: -11 }}
+                            initial={{ opacity: 0, y: -12 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                             viewport={{ once: true }}
@@ -24,7 +25,7 @@ export default function Skill({ data }) {
                         <div>
                             <motion.h1
                                 key={i}
-                                initial={{ opacity: 0, y: 12 }}
+                                initial={{ opacity: 0, y: 15 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1 }}
                                 viewport={{ once: true }}

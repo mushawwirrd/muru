@@ -1,13 +1,15 @@
 import Button from "../ui/Button"
 import { motion } from "motion/react"
 
+
+
 export default function Hero({ data }) {
 
 
     if (!data) return null
 
     return (
-        <section id="hero" className="pt-20 lg:pt-32">
+        <section id="hero" className="pt-24 ">
 
             <div className="flex flex-col items-center mx-8 lg:flex-row-reverse lg:justify-between lg:mx-10">
 
@@ -30,7 +32,6 @@ export default function Hero({ data }) {
                 </div>
 
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-start mt-4 lg:mt-0 mx-8  ">
-
                     <motion.h1
                         initial={{ opacity: 0, y: 22 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -57,15 +58,7 @@ export default function Hero({ data }) {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
-                        className="text-lg w-72 lg:w-[460px] mt-3 lg:mt-8 lg:text-xl ">{data.desc}</motion.h2>
-
-                    <motion.h2
-                        initial={{ opacity: 0, y: 15 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1 }}
-                        viewport={{ once: true }}
-                        className="text-lg w-80 lg:w-[360px] lg:text-xl ">{data.desc2}</motion.h2>
-
+                        className="text-lg w-80 lg:w-96 mt-3 lg:mt-8 lg:text-xl ">{data.desc}</motion.h2>
 
                     <motion.div
                         initial={{ opacity: 0, x: -18 }}
@@ -76,23 +69,7 @@ export default function Hero({ data }) {
                         <Button href="https://linktr.ee/mushawwirrd" lable="Contact Me" />
                     </motion.div>
 
-                    {/* <div className="flex flex-row justify-center mx-5 gap-5 lg:justify-start mt-5">
-
-                        <ButtonIcon
-                            href="https://www.linkedin.com/in/mushawwir-rudianto"
-                            src="/linkedin.svg"
-                            target="_blank"
-                            alt="Linked In"
-                        />
-
-                        <ButtonIcon
-                            href="https://github.com/mushawwirrd"
-                            src="/github.svg"
-                            target="_blank"
-                            alt="Github"
-                        />
-
-                    </div> */}
+                   
                 </div>
 
 

@@ -1,16 +1,13 @@
 
-function ButtonIcon({ href, src, target, alt }) {
+function ButtonIcon({ href, src, target, alt, icon }) {
     return (
 
-        <div className="">
-            <a href={href}
-                target={target}
-            >
+        <div className="hover:text-black/60 duration-200">
+            <a
+                href={href}
+                target={target}>
 
-                <img
-                    src={src}
-                    alt={alt}
-                    className="w-7 h-7" />
+                {icon}
 
             </a>
         </div>
