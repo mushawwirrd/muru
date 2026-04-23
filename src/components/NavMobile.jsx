@@ -24,6 +24,7 @@ function NavMobile({ isOpen, setOpen }) {
                     {nav.map(v => (
                         <li key={v.title}>
                             <button onClick={() => {
+                                setOpen(false)
                                 document.getElementById(v.href).scrollIntoView({ behavior: "smooth" })
                             }}>{v.title}</button>
                             {/* <a onClick={() => setOpen(false)} href={v.href} >{v.title}</a> */}
