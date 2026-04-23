@@ -26,7 +26,7 @@ function NavMobile({ isOpen, setOpen }) {
                             <button onClick={() => {
                                 document.getElementById(v.href).scrollIntoView({ behavior: "smooth" })
                             }}>{v.title}</button>
-                            <a onClick={() => setOpen(false)} href={v.href} >{v.title}</a>
+                            {/* <a onClick={() => setOpen(false)} href={v.href} >{v.title}</a> */}
                         </li>
                     ))}
                     <div className="flex items-center justify-center mt-10">
