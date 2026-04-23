@@ -17,8 +17,8 @@ export default function Cakep({ data }) {
 
             <div className="mt-5">
 
-                <div className="mt-1">
-                    <p className="bg-orange-500/10 border-x-2 border-x-orange-500 mb-3 p-3 rounded-md">📌 {p.note}</p>
+                <div className="mt-1 ">
+                    <p className="bg-orange-500/10 border-x-2 text-sm border-x-orange-500 mb-3 py-4 px-5 lg:w-full rounded-md">📌 {p.note}</p>
                 </div>
 
                 <div className="space-y-3">
