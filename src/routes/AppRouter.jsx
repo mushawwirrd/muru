@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 import Layout from "../pages/Layout"
@@ -22,7 +22,8 @@ function AppRouter() {
     if (!data) return null
 
     return (
-        <BrowserRouter basename="/muru/">
+
+        <HashRouter>
 
             <Scrolltop />
 
@@ -41,8 +42,9 @@ function AppRouter() {
 
                 </Route>
             </Routes>
+        </HashRouter>
 
-        </BrowserRouter>
+
     )
 }
 
