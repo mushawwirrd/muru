@@ -1,14 +1,14 @@
 export const nav = [
     {
         title: "Home",
-        href: "#hero"
+        href: "hero"
     },
     {
         title: "About Me",
-        href: "#about",
+        href: "about",
     },
     {
         title: "Project",
-        href: "#project"
+        href: "project"
     },
 ]
