@@ -11,7 +11,7 @@ export default function MoreNancy({ data }) {
                 <h1 className="text-xl lg:text-2xl font-bold">{p.title}</h1>
 
                 <div className="flex justify-center mt-5">
-                    <img src={p.image} alt={p.title} className="overflow-hidden rounded-xl w-3/4" />
+                    <img src={p.image} alt={p.title} className="overflow-hidden rounded-xl lg:w-3/4" />
                 </div>
 
             </div>
