@@ -36,10 +36,19 @@ export default function Layout() {
                                     to="/"
                                     className="font-sans hover:text-gray-500 transition"
                                 >
-                                    Home
+                                    Home 
                                 </Link>
+                            
+                                <button className="font-sans hover:text-gray-500 transition" onClick={() => {
+                                    document.getElementById("about").scrollIntoView({ behavior: "smooth" })
+                                }}>About</button>
 
-                                <a
+                                <button className="font-sans hover:text-gray-500 transition" onClick={() => {
+                                    document.getElementById("project").scrollIntoView({ behavior: "smooth" })
+                                }}>Project</button>
+
+
+                                {/* <a
                                     href="#about"
                                     className="font-sans hover:text-gray-500 transition"
                                 >
@@ -50,7 +59,7 @@ export default function Layout() {
                                     className="font-sans hover:text-gray-500 transition"
                                 >
                                     Project
-                                </a>
+                                </a> */}
                             </li>
                         </ul>
 
@@ -70,7 +79,7 @@ export default function Layout() {
 
             <Outlet />
             <Footer data={data.footer} />
-            
+
         </div>
     )
 }

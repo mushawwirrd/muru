@@ -3,6 +3,8 @@ import { motion } from "motion/react"
 import Button from "../ui/Button"
 import TextButton from "../ui/TextButton"
 import Text from "../ui/Text"
+import { Link } from "react-router-dom"
+import { GoArrowUpRight } from "react-icons/go"
 
 export default function Project({ data }) {
 
@@ -66,10 +68,8 @@ export default function Project({ data }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
-                className="mb-1">
-                <Text
-                  click={prj.read}
-                  lable="Read More" />
+                className="my-1">
+                <Link to={prj.read} className="flex items-end justify-center  hover:text-gray-500 " >Read More <GoArrowUpRight size={20} /></Link>
               </motion.div>
 
               <motion.div
