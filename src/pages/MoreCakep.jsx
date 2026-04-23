@@ -91,14 +91,14 @@ export default function Cakep({ data }) {
 
                     <div className="space-y-2">
                         <p className="mb-1">Anyway, you can see this project on github</p>
-                        <div className="bg-black hover:bg-white text-white  hover:text-black hover:shadow-xl rounded-full w-fit px-5 py-2 ">
-                            <a href="" className="flex items-center font-semibold gap-1">Frontend - Booking <FaGithub size={20} /></a>
+                        <div className="flex justify-center bg-black hover:bg-white text-white  hover:text-black hover:shadow-xl rounded-full w-64 px-5 py-2 ">
+                            <a href="https://github.com/mushawwirrd/cakep-book" className="flex items-center font-semibold gap-1">See On Github - Booking <FaGithub size={20} /></a>
                         </div>
-                        <div className="bg-black hover:bg-white hover:shadow-xl text-white hover:text-black  rounded-full w-fit px-5 py-2 ">
-                            <a href="" className="flex items-center  font-semibold gap-1">Frontend - Cashier <FaGithub size={20} /></a>
+                        <div className="flex justify-center bg-black hover:bg-white hover:shadow-xl text-white hover:text-black  rounded-full w-64 px-5 py-2 ">
+                            <a href="https://github.com/mushawwirrd/cakep-cashier" className="flex items-center  font-semibold gap-1">See On Github - Cashier <FaGithub size={20} /></a>
                         </div>
-                        <div className="bg-black hover:bg-white hover:shadow-xl text-white hover:text-black rounded-full w-fit px-5 py-2 ">
-                            <a href="" className="flex items-center  font-semibold gap-1">Backend <FaGithub size={20} /></a>
+                        <div className="flex justify-center bg-black hover:bg-white hover:shadow-xl text-white hover:text-black rounded-full w-64 px-5 py-2 ">
+                            <a href="https://github.com/mushawwirrd/cakep-backend" className="flex items-center  font-semibold gap-1">See On Github - Backend <FaGithub size={20} /></a>
                         </div>
                     </div>
 

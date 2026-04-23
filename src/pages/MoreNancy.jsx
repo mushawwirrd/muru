@@ -51,8 +51,11 @@ export default function MoreNancy({ data }) {
 
                 <div className="mt-3">
                     <div>
-                        <p>Anyway, you can see this project on github</p>
-                        <a href={p.gthb} className="flex items-center font-bold gap-1">See On Github <FaGithub size={20} /></a>
+                        <p className="mb-1">Anyway, you can see this project on github</p>
+
+                        <div className="flex justify-center bg-black hover:bg-white hover:shadow-xl text-white hover:text-black rounded-full w-fit px-5 py-2 ">
+                            <a href="https://github.com/mushawwirrd/nancy" className="flex items-center  font-semibold gap-1">See On Github <FaGithub size={20} /></a>
+                        </div>
                     </div>
                 </div>
             </div>

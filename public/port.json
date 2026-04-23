@@ -161,7 +161,8 @@
             {
                 "title": "Cakep - Barbeshop Casier",
                 "image": "cakep.jpg",
-                "note": "This project is still in progress, there are still things that need to be improved and features added",
+                "note1": "This project is still in progress, there are still things that need to be improved and features added",
+                "note": "There are still things that need to be improved and features that need to be added.",
                 "intro1": "Almost every time I get my hair cut, I always get it cut at the barber, even though now I cut it myself, because with the many tutorials on YouTube, the cost of my haircut is much more than when I still got my haircut at the barber.",
                 "intro2": "From several barbershops I visited, I found a workflow that I think is useless, where the cashier asks for the customer's cellphone number, which is including me, but after that the customer's number is not answered, no messages are sent, no discount spam, no salary promo spam, or just a reminder because it's been a long time since they came to the barber. Although this workflow is not available in all barbershops, I think it's a shame that they don't utilize that much data.",
                 "intro3": "It doesn't stop there, when a customer wants to book, the customer has to contact the cashier via WhatsApp. In my opinion, this workflow is complicated, because when the cashier serves customers on site, the cashier has their own cashier application, while when there are customers who want to book, the cashier has to serve them via WhatsApp. Imagine if there are the same number of onsite customers and booking customers, the owner has to add employees, add cashier access, plus there will be the possibility of transactions that are not inputted.",
