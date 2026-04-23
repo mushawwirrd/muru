@@ -22,9 +22,7 @@ function AppRouter() {
     if (!data) return null
 
     return (
-
         <HashRouter>
-
             <Scrolltop />
 
             <Routes >
@@ -43,6 +41,9 @@ function AppRouter() {
                 </Route>
             </Routes>
         </HashRouter>
+
+
+
 
 
     )
