@@ -75,37 +75,120 @@
         "project": [
             {
                 "title": "Fina",
-                "image": "fina.jpg",
+                "image": "fina-UI.jpg",
                 "detail": "Financial health diagnosis",
                 "type": "Frontend",
                 "lng1": "react.svg",
                 "lng2": "tailwindcss.svg",
+                "read": "fina-more",
                 "link": "https://mushawwirrd.github.io/fina/"
             },
             {
                 "title": "Nancy",
-                "image": "nancy.jpg",
+                "image": "nancy-UI.jpg",
                 "detail": "More detail financial health diagnosis",
                 "type": "Frontend",
                 "lng1": "react.svg",
                 "lng2": "tailwindcss.svg",
+                "read": "nancy-more",
                 "link": "https://mushawwirrd.github.io/nancy/"
             },
+            
             {
-                "title": "SJY Hospital",
-                "image": "hospital.jpg",
+                "title": "Cakep - Barbeshop Casier",
+                "image": "cakep.jpg",
                 "detail": "Look at the doctor's schedule",
                 "type": "Fullstack",
                 "lng1": "react.svg",
                 "lng2": "tailwindcss.svg",
                 "lng3": "nodejs.svg",
                 "lng4": "expressjs.svg",
+                "read": "cakep-more",
                 "link": "https://mushawwirrd.github.io/SJY-hospital-demo/"
             }
         ]
     },
+    "portDetail1": {
+        "project1": [
+            {
+                "title": "Fina Finance",
+                "image": "fina-UI.jpg",
+                "prg1": "It started with my failure in managing my finances, where my finances were in ruins. Finally, I decided to try learning basic accounting, which wasn't very related to my background in design and computer science, but I tried hard to understand it. And finally, I found what I thought solved my problem in managing money. ",
+                "prg2": "With my background in computer science and my very basic accounting knowledge, I created a financial health diagnosis web app. I tried to make this as simple as possible, so that it could be friendly for lay people, considering that most Indonesians have very low financial literacy. The logic is very simple, as simple as comparing whether your expenses are greater than your income.",
+                "prg3": "Let me show you the financial health diagnosis web app that I have created, while I explain the steps for using the web app and how each condition is displayed.",
+                "last":"I really hope that this financial health diagnosis web app I created will live up to my initial goal: to help people understand their financial health and make informed decisions. See you in the next project🖐🏻",
+                "prgf1": "It started with my failure in managing my finances, where my finances were in ruins. Finally, I decided to try learning basic accounting, which wasn't very related to my background in design and computer science, but I tried hard to understand it.",
+                "prgf2": "And finally, I found what I thought solved my problem in managing money. With my background in computer science and my very basic accounting knowledge, I created a financial health diagnosis web app.",
+                "prgf3": "I tried to make this as simple as possible, so that it could be friendly for lay people, considering that most Indonesians have very low financial literacy. The logic is very simple, as simple as comparing whether your expenses are greater than your income.",
+                "img1": "fina-ksg.jpg",
+                "img2": "fina-sht.jpg",
+                "img3": "fina-tsht.jpg",
+                "gthb": "https://"
+            }
+        ]
+    },
+    "portDetail2": {
+        "project2": [
+            {
+                "title": "Nancy Finance",
+                "image": "nancy-UI.jpg",
+                "prg1": "Continuing my story of money management failure, I previously created a simple web app for financial health diagnosis. In this project, I created something similar, but quite complex, where people can enter the exact number of expenses and their income. The reason I made it like that is because not everyone has only one source of income and form of expenditure. ",
+                "prg2": "Their income can come from passive income or side jobs. Similarly, as we know, most people's expenses vary considerably. Beyond necessities, they sometimes have debts and desires that are difficult to let go of, even though the most important expense is simply necessities.",
+                "prg3": "As in the previous project, let me show you the financial health diagnosis web app that I have created, with the same logic but it is quite complex, while I tell you how it works.",
+                "empty":"",
+                "healthy" :"",
+                "img1": "nancy-ksg.jpg",
+                "img2": "nancy-sht.jpg",
+                "img3": "nancy-tsht.jpg",
+                "gthb": "https://"
+            }
+        ]
+    },
+    "portDetail3": {
+        "project3": [
+            {
+                "title": "SJY Hospital",
+                "image": "SjyUI.jpg",
+                "prg1": "Rumah sakit memiliki peran penting dalam kehidupan manusia, maka dari itu salah satu hal penting yang harus diperhatikan di rumah sakit adalah kecepatan. ",
+                "prg2": "Lewat web app ini saya berharap orang-orang dirumah sakit dapat mengelola data dengan cepat dan tepat",
+                "gthb": "https://",
+                "gthb2": "https://"
+            }
+        ]
+    },
+    "portDetail4": {
+        "project4": [
+            {
+                "title": "Cakep - Barbeshop Casier",
+                "image": "cakep.jpg",
+                "note": "This project is still in progress, there are still things that need to be improved and features added",
+                "intro1": "Almost every time I get my hair cut, I always get it cut at the barber, even though now I cut it myself, because with the many tutorials on YouTube, the cost of my haircut is much more than when I still got my haircut at the barber.",
+                "intro2": "From several barbershops I visited, I found a workflow that I think is useless, where the cashier asks for the customer's cellphone number, which is including me, but after that the customer's number is not answered, no messages are sent, no discount spam, no salary promo spam, or just a reminder because it's been a long time since they came to the barber. Although this workflow is not available in all barbershops, I think it's a shame that they don't utilize that much data.",
+                "intro3": "It doesn't stop there, when a customer wants to book, the customer has to contact the cashier via WhatsApp. In my opinion, this workflow is complicated, because when the cashier serves customers on site, the cashier has their own cashier application, while when there are customers who want to book, the cashier has to serve them via WhatsApp. Imagine if there are the same number of onsite customers and booking customers, the owner has to add employees, add cashier access, plus there will be the possibility of transactions that are not inputted.",
+                "intro4": "With my interest in business, understanding of digital marketing, and background in computer science, I decided to unite the workflow in one place plus enable owners to make the right decisions for their business by tracking customer data and overall business data through the cashier + booking + CRM + dashboard web app.",
+                "bridge": "Before I explain the web app in its entirety, I want to let you know that this web app consists of two web apps: a booking web app and a cashier web app. In the cashier section, there are two users: the admin/cashier and the owner. The admin/cashier is only allowed to access certain features, while the owner is given permission to access all features.",
+                "prg1": "Let me show you the booking section of the web app. Before making a booking, customers must first register, just like any other booking web app. Here's one interesting thing: in the registration section, in addition to entering a username, email address, and password, customers must also enter their mobile number, which will be saved and displayed in the cashier web app—one of the features of the cashier web app.",
+                "prg2": "After successfully registering and logging in, customers can click 'Booking' to make a booking. In the booking section, customers are asked to fill out a form with the date and time of their booking, along with the services they wish to use, and then click the 'Booking' button. That's it! The process was designed to be that simple, with the hope that the web app would be easy to use, even for laypeople",
+                "prg3": "In the Cashier Web App, the admin/cashier and owner must register, but I skipped it because the flow is the same as registration and login in general, where the owner and admin/cashier are asked to enter their username, email, and password",
+                "prg4": "In this section, I'll first explain the features accessible to admins/cashiers, which are Booking and Service. In the 'Service' section, the admin/cashier's role is to add available barber services, which customers can then choose when booking. In the 'Booking' section, the admin/cashier's role is to input orders made on-site and update the status of each transaction, both online (Booking) and on-site, to 'Completed.'",
+                "prg5": "Next we move on to features that can be accessed by the owner, where the owner has access to all existing features, including Booking, Service, CRM, and Dashboard. For Booking and Service I won't explain again, because the flow is the same as what I explained when explaining the features that can be accessed by admins/cashiers.",
+                "prg6": "Let's go straight to CRM and Dashboard. This is one of the interesting things, in CRM the owner can see customer data in the form of total bookings, total spent, favorite services, and the last date of the customer's visit, in addition to that in the Dashboard section the owner can also see total income, the most used services from all customers, as well as peak days and hours. As I mentioned at the beginning, all of this data can be used for the owner to make decisions for his business.",
+                "myExp":"I really hope that through this web app, owners can improve their businesses by cutting down on complicated workflows and maximizing data utilization. See you on the next project🙌🏻",
+                "img1": "cust_regist.jpg",
+                "img2": "cust_book.jpg",
+                "img4": "admin_book.jpg",
+                "img5": "admin_completed.jpg",
+                "img3": "admin_service.jpg",
+                "img6": "owner_cust.jpg",
+                "img7": "owner_detail.jpg",
+                "img8": "owner_dashboard.jpg",
+                "gthb": "https://",
+                "gthb2": "https://"
+            }
+        ]
+    },
     "footer": {
-        "copy": "©2025 All Rights Reserved",
+        "copy": "©2026 All Rights Reserved",
         "message": "Made with 💙 by",
         "social": [
             {

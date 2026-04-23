@@ -1,15 +1,17 @@
 import { motion } from "motion/react"
 
 import Button from "../ui/Button"
+import TextButton from "../ui/TextButton"
+import Text from "../ui/Text"
 
 export default function Project({ data }) {
+
   if (!data) return null
 
   const myProject =
     <div className="flex flex-wrap justify-center lg:gap-x-5">
 
       {data.project.map((prj, i) => (
-
 
         <div className="lg:w-[450px] mt-6  ">
 
@@ -56,6 +58,18 @@ export default function Project({ data }) {
                 <img src={prj.lng2} />
                 <img src={prj.lng3} />
                 <img src={prj.lng4} />
+              </motion.div>
+
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: -12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className="mb-1">
+                <Text
+                  click={prj.read}
+                  lable="Read More" />
               </motion.div>
 
               <motion.div

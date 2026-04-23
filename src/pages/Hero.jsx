@@ -1,8 +1,6 @@
 import Button from "../ui/Button"
 import { motion } from "motion/react"
 
-
-
 export default function Hero({ data }) {
 
 

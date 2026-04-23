@@ -14,8 +14,6 @@ export default function NavDekstop() {
                         </li>
                     ))}
 
-
-
                 </ul>
             </div>
 
