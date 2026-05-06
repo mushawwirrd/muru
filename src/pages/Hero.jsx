@@ -1,5 +1,9 @@
-import Button from "../ui/Button"
 import { motion } from "motion/react"
+
+import Button from "../ui/Button"
+import MButton from "../components/Button/MButton"
+import SButton from "../components/Button/SButton"
+
 
 export default function Hero({ data }) {
 

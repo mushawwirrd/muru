@@ -14,14 +14,14 @@ export default function AboutMe({ data }) {
                         <h1 className='text-primary text-3xl lg:text-4xl  font-bold'>About Me</h1>
                     </div>
 
-                    <div className="flex flex-col items-center justify-center mt-5 text-lg lg:text-2xl w-full ">
+                    <div className="max-w-xl mx-auto mt-5 text-lg lg:text-xl gap-1 ">
 
                         <motion.p
                             initial={{ opacity: 0, y: 16 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                             viewport={{ once: true }}
-                            className="lg:w-[680px] mb-1 ">
+                            className="">
                             {data.prg2}
                         </motion.p>
 
@@ -30,7 +30,7 @@ export default function AboutMe({ data }) {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                             viewport={{ once: true }}
-                            className="lg:w-[680px]">
+                            className="">
                             {data.prg3}
                         </motion.p>
 

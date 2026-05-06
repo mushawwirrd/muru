@@ -17,35 +17,6 @@ function App() {
     <div>
       <AppRouter />
 
-      {/* <header className="fixed z-50 w-full bg-white/30 backdrop-blur-lg shadow-sm">
-
-        <div className="flex items-center justify-between px-10 py-5 ">
-
-          <div>
-
-            <a href="#hero">
-              <img src="muru.png" alt="muru" className="w-16" />
-            </a>
-
-          </div>
-
-          <div className="hidden lg:block ">
-            <NavDekstop />
-          </div>
-
-          <NavMobile isOpen={isOpenMenu} setOpen={setOpenMenu} />
-        </div>
-
-      </header>
-
-      {isOpenMenu && (
-        <div onClick={() => setOpenMenu(false)}
-          className="fixed z-40 top-[3.5rem] inset-0 bg-black/30 backdrop-blur-lg ">
-
-        </div>
-      )} */}
-
-
     </div>
 
 

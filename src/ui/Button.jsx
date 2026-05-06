@@ -4,7 +4,7 @@ function Button({ lable, href }) {
     <div>
       <a
         href={href}
-        className="flex justify-center px-6 py-3 rounded-full bg-primary text-white hover:shadow-2xl hover:bg-blue-800 duration-200">
+        className="flex justify-center px-4 py-2.5 rounded-full bg-primary text-sm font-medium text-white hover:shadow-2xl hover:bg-blue-800 duration-200">
        
         {lable}
        

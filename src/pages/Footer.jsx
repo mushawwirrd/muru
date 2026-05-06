@@ -1,10 +1,12 @@
-
 import { motion } from "motion/react"
+import { FaArrowRight, FaArrowRightLong, FaGithub } from "react-icons/fa6"
+import { FaBehance, FaBehanceSquare, FaLinkedin } from "react-icons/fa"
 
 import ButtonIcon from "../ui/IconButton"
 import IconTextButton from "../ui/IconTextButton"
-import { FaArrowRight, FaArrowRightLong, FaGithub } from "react-icons/fa6"
-import { FaBehance, FaBehanceSquare, FaLinkedin } from "react-icons/fa"
+import MButton from "../components/Button/MButton"
+import SButton from "../components/Button/SButton"
+import TIconButton from "../components/Button/TIconButton"
 
 
 function Footer({ data }) {
@@ -13,8 +15,8 @@ function Footer({ data }) {
 
 
     return (
-        <footer className="pt-20 ">
-            <div className="pt-9 pb-4  border-t border-t-primary/15 ">
+        <footer className="mt-10 ">
+            <div className="pt-7 pb-4  border-t border-t-primary/15 ">
 
                 <div className="flex flex-col items-center justify-center mx-8 lg:mx-10 ">
 
@@ -29,10 +31,11 @@ function Footer({ data }) {
                             <h1 className="text-xl font-bold lg:text-2xl mb-5 lg:mb-0">
                                 Let's work together
                             </h1>
+                            {/* <span><Instagram/></span> */}
                         </div>
 
                         <div className="">
-                            <IconTextButton href="https://linktr.ee/mushawwirrd" lable={"Let's Talk"} icon2={<FaArrowRightLong/>} />
+                            <IconTextButton href="https://linktr.ee/mushawwirrd" lable={"Let's Talk"} icon2={<FaArrowRight/>} />
                         </div>
                     </motion.div>
 
@@ -41,7 +44,7 @@ function Footer({ data }) {
 
                         <ButtonIcon
                             href="https://www.linkedin.com/in/mushawwir-rudianto"
-                            icon={<FaLinkedin size={28}/>}
+                            icon={<FaLinkedin size={28} />}
                             target="_blank"
                             alt="Linked In"
                         />
@@ -49,13 +52,13 @@ function Footer({ data }) {
                         <ButtonIcon
                             href="https://github.com/mushawwirrd"
                             target="_blank"
-                            icon={<FaGithub size={28}/>}
+                            icon={<FaGithub size={28} />}
                             alt="Github"
                         />
 
                         <ButtonIcon
                             href="https://www.behance.net/mushawwrudiant"
-                            icon={<FaBehanceSquare size={28}/>}
+                            icon={<FaBehanceSquare size={28} />}
                             target="_blank"
                             alt="Behance"
                         />

@@ -28,59 +28,118 @@ export default function Cakep({ data }) {
                     <p>{p.intro3}</p>
                     <p>{p.intro4}</p>
 
-                    <h2 className="text-base lg:text-lg font-bold" >Sections on the website</h2>
-                    <p>{p.bridge}</p>
+                    <div>
+                        <h2 className="text-base lg:text-lg font-bold" >Sections on the website</h2>
+                        <p>{p.bridge}</p>
+                    </div>
 
                     {/* Booking - Regist */}
-                    <h2 className="text-base lg:text-lg font-bold" >Booking - Regist</h2>
-                    <p>{p.prg1}</p>
-                    <div className="flex flex-col items-center justify-center">
-                        <img src={p.img1} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Customer registers</p>
+                    <div>
+                        <h2 className="text-base lg:text-lg font-bold" >Booking - Regist</h2>
+                        <p className="mb-2">{p.prg1}</p>
+
+                        <div className="flex flex-col gap-3">
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img1} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Customer registers</p>
+                            </div>
+                        </div>
+
                     </div>
 
                     {/* Booking */}
-                    <h2 className="text-base lg:text-lg font-bold" >Booking </h2>
-                    <p>{p.prg2}</p>
-                    <div className="flex flex-col items-center justify-center">
-                        <img src={p.img2} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Customer makes a booking (online)</p>
+                    <div>
+                        <h2 className="text-base lg:text-lg font-bold" >Booking </h2>
+                        <p className="mb-2">{p.prg2}</p>
+
+                        <div className="flex flex-col gap-3">
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img2} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Customer makes a booking (online)</p>
+                            </div>
+                        </div>
                     </div>
 
-
-
                     {/* Kasir */}
-                    {/* <h2 className="text-base lg:text-lg font-bold" >Cashier</h2> */}
                     <p>{p.prg3}</p>
-                    {/* <div className="flex flex-col items-center justify-center">
-                        <img src={p.img3} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Unhealthy financial condition</p>
-                    </div> */}
 
 
                     {/* Kasir - Admin/Cashier */}
-                    <h2 className="text-base lg:text-lg font-bold" >Cashier - Admin/Cashier</h2>
-                    <p>{p.prg4}</p>
-                    <div className="flex flex-col items-center justify-center">
-                        <img src={p.img3} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Admin/Cashier adds service</p>
-                        <img src={p.img4} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Admin/Cashier enters onsite transaction</p>
-                        <img src={p.img5} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Admin/Cashier completes transaction</p>
+                    <div>
+                        <h2 className="text-base lg:text-lg font-bold" >Cashier - Admin/Cashier/Owner</h2>
+                        <p className="mb-2">{p.prg4}</p>
+
+                        <div className="flex flex-col gap-2">
+
+                            <div className="max-w-4xl mx-auto">
+                                <div className="grid lg:grid-cols-2 gap-2">
+                                    <img src={p.img3} alt={p.title} className="overflow-hidden rounded-lg" />
+                                    <img src={p.img9} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Add services</p>
+                            </div>
+
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img12} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Enter onsite transaction</p>
+                            </div>
+
+                            <div className="max-w-4xl mx-auto">
+                                <div className="grid lg:grid-cols-2 gap-2">
+                                    <img src={p.img10} alt={p.title} className="overflow-hidden rounded-lg " />
+                                    <img src={p.img5} alt={p.title} className="overflow-hidden rounded-lg " />
+
+                                </div>
+                                <p className="text-center text-sm mt-1">Complete the transaction</p>
+                            </div>
+
+                            <div className="max-w-4xl mx-auto">
+                                <div className="grid lg:grid-cols-2 gap-2">
+                                    <img src={p.img4} alt={p.title} className="overflow-hidden rounded-lg " />
+                                    <img src={p.img11} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Enter onsite transaction with the booking list</p>
+                            </div>
+
+                        </div>
                     </div>
 
                     {/* Kasir - Owner */}
-                    <h2 className="text-base lg:text-lg font-bold" >Cashier - Owner</h2>
-                    <p>{p.prg6}</p>
-                    <p>{p.prg7}</p>
-                    <div className="flex flex-col items-center justify-center">
-                        <img src={p.img6} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Owner can see customer data</p>
-                        <img src={p.img7} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Owner opens customer data detail</p>
-                        <img src={p.img8} alt={p.title} className="overflow-hidden rounded-lg w-11/12 lg:w-1/2" />
-                        <p>Dahsboard that  can be seen by the Owner</p>
+                    <div>
+                        <h2 className="text-base lg:text-lg font-bold" >Cashier - Owner</h2>
+                        <p>{p.prg6}</p>
+                        <p className="mb-2">{p.prg7}</p>
+
+                        <div className="flex flex-col gap-3">
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img7} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Owner can see customer data</p>
+                            </div>
+
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img6} alt={p.title} className="overflow-hidden rounded-lg " />
+                                </div>
+                                <p className="text-center text-sm mt-1">Owner opens customer data detail</p>
+                            </div>
+
+                            <div className="max-w-md mx-auto">
+                                <div className="grid lg:grid-cols-1 gap-2">
+                                    <img src={p.img8} alt={p.title} className="overflow-hidden rounded-lg 2" />
+                                </div>
+                                <p className="text-center text-sm mt-1">Dahsboard that  can be seen by the Owner</p>
+                            </div>
+                        </div>
+
+
                     </div>
 
                     <div>

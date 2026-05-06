@@ -72,8 +72,8 @@ export default function Experience({ data }) {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
-                        className=" flex justify-center mt-10">
-                        {/* <OutLineButton  href="https://drive.google.com/file/d/1-4fzFVcOW51sCo_KAsS1glFCeLJ6lWiu/view?usp=drivesdk" lable="My Resume" /> */}
+                        className=" flex justify-center mt-8">
+                        <OutLineButton href="https://drive.google.com/file/d/12ynckQP8gFoDAvNbxki3XNF4PnAiGnaH/view?usp=drivesdk" lable="My Resume" />
                     </motion.div>
 
                 </div>
