@@ -171,7 +171,7 @@
                 "prg1": "Let me show you the booking section of the web app. Before making a booking, customers must first register, just like any other booking web app. Here's one interesting thing: in the registration section, in addition to entering a username, email address, and password, customers must also enter their mobile number, which will be saved and displayed in the cashier web app—one of the features of the cashier web app.",
                 "prg2": "After successfully registering and logging in, customers can click 'Booking' to make a booking. In the booking section, customers are asked to fill out a form with the date and time of their booking, along with the services they wish to use, and then click the 'Booking' button. That's it! The process was designed to be that simple, with the hope that the web app would be easy to use, even for laypeople",
                 "prg3": "In the Cashier Web App, the admin/cashier and owner must register, but I skipped it because the flow is the same as registration and login in general, where the owner and admin/cashier are asked to enter their username, email, and password",
-                "prg4": "In this section, I'll first explain the features accessible to admins/cashiers, which are Booking and Service. In the 'Service' section, the admin/cashier's role is to add available barber services, which customers can then choose when booking. In the 'Booking' section, the admin/cashier's role is to input orders made on-site and update the status of each transaction, both online (Booking) and on-site, to 'Completed.'",
+                "prg4": "In this section, I'll first explain the features accessible to admins/cashiers and owner, which are Booking and Service. In the 'Service' section, the admin/cashier and owner's role is to add available barber services, which customers can then choose when booking. In the 'Booking' section, the admin/cashier and owner's role is to input orders made on-site and update the status of each transaction, both online (Booking) and on-site, to 'Completed.'",
                 "prg5": "Next we move on to features that can be accessed by the owner, where the owner has access to all existing features, including Booking, Service, CRM, and Dashboard. For Booking and Service I won't explain again, because the flow is the same as what I explained when explaining the features that can be accessed by admins/cashiers.",
                 "prg6": "Let's go straight to CRM and Dashboard. This is one of the interesting things, in CRM the owner can see customer data in the form of total bookings, total spent, favorite services, and the last date of the customer's visit, in addition to that in the Dashboard section the owner can also see total income, the most used services from all customers, as well as peak days and hours. As I mentioned at the beginning, all of this data can be used for the owner to make decisions for his business.",
                 "myExp":"I really hope that through this web app, owners can improve their businesses by cutting down on complicated workflows and maximizing data utilization. See you on the next project🙌🏻",
@@ -183,8 +183,12 @@
                 "img6": "owner_cust.jpg",
                 "img7": "owner_detail.jpg",
                 "img8": "owner_dashboard.jpg",
-                "gthb": "https://",
-                "gthb2": "https://"
+                "img9": "admin_service2.jpg",
+                "img10": "admin_book_list.jpg",
+                "img11": "admin_book_list1.jpg",
+                "img12": "admin_book1.jpg",
+                "gthb": "https://"
+                
             }
         ]
     },
